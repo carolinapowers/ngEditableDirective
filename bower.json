@@ -1,0 +1,18 @@
+{
+  "name": "ngEditableDirective",
+  "version": "0.0.0",
+  "authors": [
+    "Carolina Powers <carolinapoloni@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0"
+  }
+}
