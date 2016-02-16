@@ -1,0 +1,12 @@
+<div class="directive-content" 
+    ng-init="editable = false"
+    ng-transclude 
+    contenteditable="{{editable}}" 
+    ng-class="{'edit-class': editable}"
+    >
+
+</div>
+<div class="directive-control">
+    <button ng-click="editable = true">Edit</button>
+    <button ng-click="editable = false">Save Changes</button>
+</div>
